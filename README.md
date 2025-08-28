@@ -11,6 +11,9 @@
 - [Configuration](#configuration)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
+- [Reference](#reference)
 
 TBD
+
+## Reference:
+- [Issue with Controller Setups](https://github.com/ros-controls/gz_ros2_control/blob/humble/doc/index.rst)
