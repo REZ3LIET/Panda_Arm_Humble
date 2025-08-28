@@ -9,6 +9,12 @@
   <!-- dynamics: description of the dynamics that comes from a YAML file. Example definition: ${xacro.load_yaml('$(find franka_description)/robots/fr3/dynamics.yaml')} -->
 
   <xacro:arg name="pkg_path" default="$(find franka_description)"/>
+  
+  <link name="world"/>
+  <joint name="world-base" type="fixed">
+    <parent link="world"/>
+    <child link="base"/>
+  </joint>
 
   <link name="base">
       </link>
