@@ -215,7 +215,7 @@ def load_robot(context, *args, **kwargs):
 
         robot_state_publisher,
         spawn_robot_node,
-        # load_controllers,
+        load_controllers,
         # load_move_group
     ]
 
